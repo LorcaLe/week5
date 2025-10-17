@@ -1,7 +1,7 @@
 <?php foreach ($jokes as $joke): ?>
   <blockquote>
     <?php if (!empty($joke['image'])): ?>
-      <img src="images/<?= htmlspecialchars($joke['image']) ?>" 
+      <img src="images/<?= htmlspecialchars($joke['image']) ?>"
            alt="Joke image"
            style="max-width:200px; display:block; margin-bottom:10px;">
     <?php endif; ?>
